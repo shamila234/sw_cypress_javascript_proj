@@ -5,4 +5,4 @@ Installations
 - Node.js
 
 Command to run tests
-npm test
+- npm test
