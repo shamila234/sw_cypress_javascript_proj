@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// Cypress.Commands.add("test-command", () => {
+//   cy.request({
+//     // user browsers cookie store
+//     methos: "POST",
+//     url: "https://www.thewarehouse.co.nz/account/submit-login?",
+//     body: {
+//       user: {
+//         dwfrm_login_email: "test-email@gmail.com",
+//         dwfrm_login_password: "test-password",
+//       },
+//     },
+//   }).then((resp) => {
+//     window.localStorage.setItem('jwt', resp.body.user.token);
+//   });
+// });
